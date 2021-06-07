@@ -25,7 +25,6 @@
 .run{
     background: rgb(202, 216, 243);
     width: 250px; 
-    font-size: 10px;
     border-radius: 10px;
     border: 1px solid #009688;
     position: absolute;
@@ -69,7 +68,7 @@
     position: relative;
     right: 5%;
 }
-.navbar .btn{
+.navbar .cue-region{
     background: rgb(202, 216, 243);
     width: 250px; 
     font-size: 10px;
@@ -88,6 +87,7 @@
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
 .btn{
     width: 85vh;
     position: absolute;
@@ -101,7 +101,7 @@
     line-height: 25px;
 }
 .mail{
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 2px;
     border-style: solid;
     background-color: rgb(125, 168, 248);
@@ -119,15 +119,21 @@
     float: left;
 }
 .left img{
-    width: 1000px;
-    height: 600px;
+    margin-top: 50px;
+    width: 135vh;
     left: 100%;
 }
 .right{
+    margin-top: 50px;
     width: 30%;
     height: 50vh;
     background-color:#ffffff;
     float: right;
+}
+.center{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
 }
 .grid-container {
     display: grid;
@@ -138,9 +144,55 @@
   }
   
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(230, 230, 230, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 3px;
+    padding: 1px;
     font-size: 15px;
     text-align: center;
   }
+  .grid-item img{
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin: 15px;
+  }
+    .gragon{
+      text-align: left;
+      margin-top: 3px;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .grid-item .made{
+        text-align: left;
+      margin-top: 3px;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .graphics{
+        color:blue;
+    }
+    .color{
+        color: #009688;
+    }
+    .heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .align-text{
+        font-size: 3vh;
+        text-align: center;
+    }
+    .button{
+        font-size: 25px;
+        text-align: right ;
+    }
+
+
+
+
+
+
+
+
+
